@@ -1,2 +1,10 @@
 Installation requirements:
+These will be used throughout the project
 Numpy - 1.19.4
+
+
+This folder contains machine learning algorithms that will server as a reminder and also a starting step for the "Project-Poker" project.
+
+The front-end will be served using React. This folder will therefore be a dual project of ML using python and React frontend.
+
+Author: Febrian Francione
