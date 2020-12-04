@@ -1,18 +1,14 @@
-from pypokerengine.players import BasePokerPlayer
-from pypokerengine.api.emulator import Emulator, DataEncoder
-from pypokerengine.utils.card_utils import gen_cards, estimate_hole_card_win_rate
 import math
 import random
-import numpy as np
-import matplotlib
-import matplotlib.pyplot as plt
 from collections import namedtuple
-from itertools import count
+
 import torch
 import torch.nn as nn
-import torch.optim as optim
 import torch.nn.functional as F
-import torchvision.transforms as T
+import torch.optim as optim
+from pypokerengine.players import BasePokerPlayer
+from pypokerengine.utils.card_utils import gen_cards, estimate_hole_card_win_rate
+
 
 # Here we build the Neural Network to use for our Policy Network and Target Network
 # 2 Fully Connected Hidden Layers
