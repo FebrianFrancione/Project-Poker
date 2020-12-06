@@ -1,7 +1,6 @@
 # Retrieved from https://medium.com/@andreasthiele/building-your-own-no-limit-texas-holdem-poker-bot-in-python-cd9919302c1c
 from pypokerengine.players import BasePokerPlayer
 from pypokerengine.utils.card_utils import gen_cards, estimate_hole_card_win_rate
-from pypokerengine.engine.data_encoder import DataEncoder
 
 NB_SIMULATION = 1000
 
