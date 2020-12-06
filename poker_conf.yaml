@@ -1,0 +1,13 @@
+ante: 0
+blind_structure: null
+initial_stack: 1000
+max_round: 100
+small_blind: 10
+ai_players:
+- name: rl_player_1
+  path: RLPokerPlayer.py
+- name: rl_player_2
+  path: RLPokerPlayer.py
+- name: rl_player_3
+  path: RLPokerPlayer.py
+
