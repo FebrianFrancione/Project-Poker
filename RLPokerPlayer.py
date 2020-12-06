@@ -5,8 +5,8 @@ import random
 from collections import namedtuple
 import torch
 import torch.nn as nn
-import torch.optim as optim
 import torch.nn.functional as F
+import torch.optim as optim
 
 # Here we build the Neural Network to use for our Policy Network and Target Network
 # 2 Fully Connected Hidden Layers
