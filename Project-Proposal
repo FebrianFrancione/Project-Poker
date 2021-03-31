@@ -1,0 +1,25 @@
+PROJECT PROPOSAL FORM
+
+Group: G14 Student 1: Patrick Leduc 40034182 Student 2: Febrian Francione 40049253 Date submitted: October 13th, 2020
+
+Propose a title for your project. Training a Poker Agent with Reinforcement Learning
+
+Describe the goal of your project. In recent years, there have been many instances of computers beating world ranked human players in their respective games.
+In this project we aim to implement an agent that can play poker in a simulated environment, and train it with reinforcement learning. We will also explore, 
+different methods, durations of training and compare the accumulated reward of these different scenarios. The goal of this project is to create a poker playing agent
+that exhibits some form of knowledge on how to succeed in playing poker. Ideally it would learn how to properly bet/bluff to stand up to an average human player. 
+Describe the data you plan to use. On one hand from the reinforcement learning perspective, the data will be provided through the game engine we will be using.
+The main sources of data are from the agent interacting with the environment, i.e. playing against others. However, through this process we plan to test various methods 
+such as: • Number of games played to determine the reward over time • Playing against a human player • Number of total players, 1 – 6 On the other hand, there are various
+sources for Poker datasets. For example, this contains a large set of Poker Hands which can be used to predict the likelihood that the players hand will win the round. 
+Through a large data set such as this, we could train an agent with the data and then define a set of rules for it to play under. For example, if the agent predicts 
+a probability of success > 50% then the agent will call/raise otherwise they would fold. This would be interesting to compare to a reinforcement learning approach.
+Describe how you will measure “success.” The success of this project will be determined by the following criteria: • If the agent can increase its reward over time 
+through reinforcement learning • If the agent competes with an average human player (with a degree of success) What we are also interested in measuring, is the tactics
+it will use, so can it bluff/raise like humans do. Since poker is a game of imperfect information, you really need to use these tactics to win hands.
+If the agent develops some sort of strategy like this to a degree, that would be considered a success. Describe how work will be divided.
+• Patrick will set up the poker game engine • Patrick will implement the q-learning algorithm for the Reinforcement Learning poker bot
+• Patrick will record reward data for various time steps • Febrian will preprocess the poker hands dataset
+• Febrian will train a model using the poker hands data to predict success
+• Both will write the report List the main Python packages you expect to use.
+PyTorch for implementing the RL algorithm PyPokerEngine for the poker environment PyPokerGUI for a poker GUI to play against/observe our agent in action
