@@ -1,6 +1,3 @@
-# Project-Poker
-COMP 432: Machine Learning, Concordia University
-
 # Comp 432: Project-Poker
 Reinforcement learning for a poker agent. Q-learning algorithm for Reinforcement Learning Poker Bot. Preprocessed trained data to find the best Machine Learning algortihms.
 
